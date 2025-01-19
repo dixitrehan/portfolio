@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer" ];
+  const toRotate = [ "IOS Developer" ];
   const period = 1000;
 
   useEffect(() => {
@@ -56,13 +56,14 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Dixit Rehan`} <span className="txt-rotate" dataPeriod="100" data-rotate='[ "Web Developer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Dixit Rehan`} <span className="txt-rotate" dataPeriod="100" data-rotate='[ "IOS Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>
-I'm a seasoned web developer passionate about turning ideas into reality. With extensive experience in designing, developing, and managing projects, I offer full-service web development.
+I'm a seasoned iOS developer passionate about crafting intuitive and engaging mobile applications. With extensive experience in designing, developing, and managing projects, I offer full-service app development.
 
-From creating websites to optimizing search engines, implementing marketing strategies, and ensuring conversion, I cover it all. Customer satisfaction is my priority.
+From building feature-rich iOS apps to optimizing performance, integrating APIs, and ensuring seamless user experiences, I cover it all. Customer satisfaction and attention to detail are my top priorities.
 
-Explore my portfolio and let's discuss bringing your vision to life. #WebDeveloper #WebDesigner #Webmaster #POS #SSL #Ecommerce
+Explore my portfolio, and let's discuss bringing your app idea to life. #iOSDeveloper #Swift #MobileApps #UserExperience #AppDevelopment
+
 
 
 
